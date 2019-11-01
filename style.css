@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+input {
+    width: 800px;
+    height: 75px;
+}
+header {
+    margin-bottom: 80px;
+}
+.row {
+    margin-top: 15px;
+}

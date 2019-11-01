@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<header>
+    <h1>Work Day Scheduler</h1>
+    <h4>A simple calendar app for scheduling your work day</h4>
+    <h4><span id="date">Date</span></h4> 
+    </header>
+<body>
+
+    <div class="container">
+        <div class="row" id="9am">
+            <div class="col-md-1">9 AM</div>
+            <input class="col-md-10 task" data-index=20></input>
+            <button class="col-md-1 button">Lock</button>
+        </div>
+        <div class="row" id="10am">
+            <div class="col-md-1">10 AM</div>
+            <input class="col-md-10 task" data-index=21></input>
+            <button class="col-md-1 button">Lock</button>
+        </div>
+        <div class="row" id="11am">
+            <div class="col-md-1">11 AM</div>
+            <input class="col-md-10 task" data-index=22></input>
+            <button class="col-md-1 button">Lock</button>
+        </div>
+    </div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>    
+<script src="./javascript.js"></script>
+
+</body>
+</html>
